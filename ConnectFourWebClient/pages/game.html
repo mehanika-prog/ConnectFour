@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Connect Four</title>
+    <link rel="stylesheet" href="./../styles/game.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="modalBg" id="modalBg">
+            <div class="modal">
+                <p><span id="winner"></span> player Won!</p>
+                <p id="points" style="font-size: 15pt"></p>
+                <div>
+                    <label for="name">Your name:</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <table>
+                    <tr>
+                        <th><button class="qButton" type="button" id="1">1</button></th>
+                        <th><button class="wButton" type="button" id="2">2</button></th>
+                        <th><button class="eButton" type="button" id="3">3</button></th>
+                        <th><button class="rButton" type="button" id="4">4</button></th>
+                        <th><button class="tButton" type="button" id="5">5</button></th>
+                    </tr>
+                </table>
+                <button class="submit" type="button" id="button">Submit</button>
+            </div>
+        </div>
+        <div class="modalBg2" id="modalBg2">
+            <div class="modal2">
+                <p>Draw</p>
+                <button class="submit" type="button" id="button2">Ok</button>
+            </div>
+        </div>
+        <p id="pointer"></p>
+        <div class="field_container">
+            <div id="field" class="field">
+
+            </div>
+            <table>
+                <tr>
+                    <th><button class="qButton" type="button" id="Q">Q</button></th>
+                    <th><button class="wButton" type="button" id="W">W</button></th>
+                    <th><button class="eButton" type="button" id="E">E</button></th>
+                    <th><button class="rButton" type="button" id="R">R</button></th>
+                    <th><button class="tButton" type="button" id="T">T</button></th>
+                    <th><button class="yButton" type="button" id="Y">Y</button></th>
+                    <th><button class="uButton" type="button" id="U">U</button></th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script type="module" src="./../scripts/game.js"></script>
+</body>
+</html>

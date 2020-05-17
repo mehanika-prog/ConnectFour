@@ -1,0 +1,5 @@
+{
+  "hostname": "127.0.0.1",
+  "port": 5003,
+  "mongodb_server": "mongodb+srv://server:lY7Rf0rQ8Ez0jm8A@freecluster-ohxs8.mongodb.net/connectfour"
+}

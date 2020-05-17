@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comments</title>
+    <link rel="stylesheet" href="./../styles/comments.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header_container">
+            <p>Comments</p>
+        </div>
+        <div class="comments_container" id="comments_container">
+
+        </div>
+        <div class="add_comment_form">
+            <form>
+                <div>
+                    <label for="name">Your name:</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div>
+                    <label for="comment">Your comment:</label>
+                    <textarea required id="comment"></textarea>
+                </div>
+                <button type="button" id="add_comment_button">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="./../scripts/comments.js"></script>
+</body>
+</html>

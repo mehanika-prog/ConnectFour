@@ -1,0 +1,180 @@
+body{
+    background-image: url("./../files/whiteOperaBackground.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+p{
+    font-size: 20pt;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    text-align: center;
+}
+
+.field_container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,.1);
+    border-radius: 20px;
+    height: 71%;
+    width: auto;
+    padding: 10px;
+}
+
+table, tr, th{
+    margin: 0;
+    padding: 0;
+}
+
+.disc{
+    margin: 5px;
+    width:56px;
+    height:56px;
+    border-radius:56px;
+    transition:all .3s;
+    background: rgba(0,0,0,.1);
+}
+
+.disc.red{
+    background:#d96666;
+}
+
+.disc.blue{
+    background:#798dff;
+}
+
+button{
+    width:56px;
+    height:56px;
+    border-radius:56px;
+    border:0.1em solid rgba(255,255,255,0);
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+    margin: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight:300;
+    color:#000;
+    font-size: 20pt;
+    outline: none;
+}
+
+.qButton:hover{
+    border-color: red;
+    cursor: pointer;
+}
+
+.wButton:hover{
+    border-color: orange;
+    cursor: pointer;
+}
+
+.eButton:hover{
+     border-color: yellow;
+    cursor: pointer;
+}
+
+.rButton:hover{
+    border-color: lime;
+    cursor: pointer;
+}
+
+.tButton:hover{
+    border-color: blue;
+    cursor: pointer;
+}
+
+.yButton:hover{
+    border-color: indigo;
+    cursor: pointer;
+}
+
+.uButton:hover{
+    border-color: violet;
+    cursor: pointer;
+}
+.modalBg{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: none;
+    z-index: 1000;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,.7);
+    padding: 0 20px;
+}
+
+.modalBg2{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: none;
+    z-index: 1000;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+
+.modal2{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,.7);
+    padding: 0 20px;
+}
+
+.modal table{
+    margin: 0 auto;
+}
+
+input{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 70px;
+    height: 50px;
+    width: 95%;
+    font-size: 15pt;
+    font-style: normal;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgba(255,255,255,.6);
+}
+
+.submit{
+    display: block;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 50px auto;
+}
+
+.submit:hover{
+    border-color: aqua;
+    cursor: pointer;
+}
