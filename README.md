@@ -19,6 +19,8 @@ Install [**Node.js**](https://nodejs.org/en/).
 
 In terminal open `ConnectFourServer` folder.
 
+Run command `npm install`.
+
 Run command `npm run start`.
 
 ---
